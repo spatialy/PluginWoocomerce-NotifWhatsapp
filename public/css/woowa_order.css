@@ -1,0 +1,15 @@
+.btn-reminder:hover{
+    background: #9b5c8f;
+}
+.btn-reminder{
+    background: #38b538;
+    border: 0px;
+    border-radius: 3px;
+    color: white !important;
+    padding: 2px 6px 3px 6px;
+}
+
+.dropdown{
+    float: left;
+    margin-right:5px;
+}

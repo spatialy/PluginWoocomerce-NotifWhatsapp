@@ -1,0 +1,263 @@
+p{
+    font-family: Varela Round;
+}
+/* 
+a.seller_notif {
+    height: 100%;
+    margin: -15px;
+    padding: 15px;
+}     */
+
+#select-device-button{
+    
+}
+
+.select-device{
+    width : 20%;
+}
+
+.input-group-button {
+    padding: 0;
+    border:none;
+    background: none;
+}
+.input-group .input-group-button:first-child .btn{
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+}
+.input-group .input-group-button:last-child .btn{
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+}
+.input-group select.form-control{
+    -webkit-appearance: none;
+}
+
+.centered-modal.in {
+    display: flex !important;
+}
+.centered-modal .modal-dialog {
+    margin: auto;
+}
+
+.check {
+cursor: pointer;
+position: relative;
+margin: auto;
+width: 18px;
+height: 18px;
+-webkit-tap-highlight-color: transparent;
+transform: translate3d(0, 0, 0);
+}
+.check:before {
+content: "";
+position: absolute;
+top: -15px;
+left: -15px;
+width: 48px;
+height: 48px;
+border-radius: 50%;
+background: rgba(34,50,84,0.03);
+opacity: 0;
+transition: opacity 0.2s ease;
+}
+.check svg {
+position: relative;
+z-index: 1;
+fill: none;
+stroke-linecap: round;
+stroke-linejoin: round;
+stroke: #c8ccd4;
+stroke-width: 1.5;
+transform: translate3d(0, 0, 0);
+transition: all 0.2s ease;
+}
+.check svg path {
+stroke-dasharray: 60;
+stroke-dashoffset: 0;
+}
+.check svg polyline {
+stroke-dasharray: 22;
+stroke-dashoffset: 66;
+}
+.check:hover:before {
+opacity: 1;
+}
+.check:hover svg {
+stroke: #4285f4;
+}
+.cbx:checked + .check svg {
+stroke: #4285f4;
+}
+.cbx:checked + .check svg path {
+stroke-dashoffset: 60;
+transition: all 0.3s linear;
+}
+.cbx:checked + .check svg polyline {
+stroke-dashoffset: 42;
+transition: all 0.2s linear;
+transition-delay: 0.15s;
+}
+
+#accordion {
+    text-align: left
+};
+
+
+.template-wa-reminder{
+    border-radius: 10px;width: 560px;height: 360px;background:white; 
+    margin-top:10px;
+}
+
+.template-wa-order_completed{
+    
+}
+
+.template-wa-seller{
+    border-radius: 10px;width: 560px;height: 360px;background:white; 
+    margin-top:10px;
+}
+
+.container {
+    background-color: #fff;
+    margin-left: 1px;
+    margin-right: 100px;
+    width: 100%; 
+    padding-bottom: 25px;
+    border-bottom: 1px solid #black;
+    border-radius: 0 10px 10px 10px;
+}
+
+li{
+  margin: 0 5px;
+}
+
+li:first-child{
+  margin-left: 0;
+}
+
+li.active{
+	color: #fff;
+}
+
+.fa, .fas {
+    font-weight: normal;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: Varela Round ;
+    margin-top: 20px;
+    padding-right: 30px;
+}
+
+.nav-tabs>li>a {
+    font-family: Varela Round !important;
+    background: #e8e8e8;
+	color : black;
+    margin-right: 2px;
+    line-height: 1.42857143;
+}
+
+.wp-person a:focus .gravatar, a:focus, a:focus .media-icon img {
+    -webkit-box-shadow: 0 0 0 0px;
+    box-shadow: 0 0 0 0px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: black;
+    cursor: default;
+    background-color: #fff;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs>li>a {
+    font-family: arial;
+    margin-right: 0px;
+}
+
+ul.nav-tabs{
+
+    text-align: left;
+    direction: rtl;
+    /*background: white;*/
+    border-bottom: 1px solid #ddd;
+    border-radius: 3px 3px 0 0;
+}
+
+.nav-tabs>li>a:hover {
+    border-color: #ddd; 
+    background: white;
+}
+
+#wpbody-content {
+    padding: 0 80px 100% 2%;
+    float: left;
+    width: 100%;
+    overflow: visible!important;
+    background: #ddd;
+    /*
+    background-size: 100%;
+    background-image: url(../img/background.jpg);
+    background-position: initial;*/
+}
+
+#wpcontent {
+    padding-left: 0px; 
+}
+
+.btn{
+    font-family: Varela Round;
+}
+.btn-save{
+    margin-top:5px;
+}
+.imginput{
+    width: 300px;
+}
+.cek_img{
+    margin-top:-2px !important; 
+}
+
+a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+
+.on_off_container{
+    float: right;
+    margin-top: -20px;
+}
+
+.bs-example {
+    margin-right: 0px !important;
+}
+
+/* uncomment this if view got crash */
+/* #templatewoowa div{
+    margin-right: auto;
+} */
+
+#addcustomstatus div{
+    margin-right: auto !important;
+}
+
+.addsellernotif div{
+    margin-right: auto !important;
+}
+
+#deletecustomstatus div{
+    margin-right: auto !important;
+}
+
+.template-wa{
+    border-radius: 10px;
+    background:white; 
+    margin-top:10px;
+    min-width: 550px;
+    min-height: 300px;
+    resize: vertical !important;
+}
+
+::-webkit-resizer{ 
+    background-color: black; 
+ }
